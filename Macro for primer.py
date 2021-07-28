@@ -61,7 +61,7 @@ geneLoc_list = []
 for row in load_ws.rows:
     if (row[0].value != None and row[0].value != 'No'):
         geneLoc_list.append(row[2].value)
-        #여기 죄다 append해주마
+        
 
 for i in range(len(geneLoc_list)):
     geneLoc = geneLoc_list[i]
